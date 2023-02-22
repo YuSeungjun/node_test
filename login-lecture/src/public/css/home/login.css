@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+.background{
+    background-image: url('/images/background.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login_text{
+    width: 400px;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.login_text > img{
+    width: 360px;
+}
+.login_text > p{
+    padding-top: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+.login_box{
+    padding-top: 49px;
+    width: 365px;
+    height: 262px;
+    backdrop-filter: blur(7px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 0.1px solid white;
+    border-radius: 8px;
+}
+.login_box > input{
+    width: 262px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.login_box > .login_but{
+    width: 262px;
+    height: 40px;
+}
+.login_set{
+    position: relative;
+    width: 262px;
+    height: 40px;
+    margin-top: 15px;
+}
+.login_set > p{
+    font-size: 9px;
+}
+.login_set > p:nth-child(1){
+    position: absolute;
+    left: 0;
+}
+.login_set > p:nth-child(2){
+    position: absolute;
+    right: 0;
+    flex-direction: row;
+}
